@@ -10,8 +10,6 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Microsoft.WindowsAPICodePack.Dialogs;
-using System.Diagnostics;
 namespace UsersRemover
 {
  
@@ -60,7 +58,7 @@ namespace UsersRemover
             }   
             catch
             {
-                // Message on label if no path is found. 
+                // Message on label if no path is found.
                 lblSelectedPath.Text = "Select the folder location";
             }           
         }
